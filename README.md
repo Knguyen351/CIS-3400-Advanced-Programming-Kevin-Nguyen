@@ -1,6 +1,5 @@
 # CIS-3400-Advanced-Programming-Kevin-Nguyen
 
-# CIS 3400 – Advanced Programming
  
 Name: Your Name  
 Major: Your Major  
