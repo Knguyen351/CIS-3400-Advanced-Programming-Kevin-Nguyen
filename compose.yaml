@@ -1,0 +1,18 @@
+services:
+  web:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    env_file: .env
+    volumes:
+      - career-data:/app/data
+    restart: unless-stopped
+  worker:
+    build: .
+    command: ["python", "manage.py", "worker"]
+    env_file: .env
+    volumes:
+      - career-data:/app/data
+    restart: unless-stopped
+volumes:
+  career-data:

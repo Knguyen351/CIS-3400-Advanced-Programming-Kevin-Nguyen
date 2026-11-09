@@ -1,0 +1,130 @@
+{
+  "locations": [
+    "NC",
+    "SC"
+  ],
+  "include_remote": false,
+  "daily_limit": 3,
+  "minimum_score": 48,
+  "target_titles": [
+    "IT support",
+    "desktop support",
+    "help desk",
+    "service desk",
+    "IT technician",
+    "deployment technician",
+    "network technician",
+    "technical support specialist",
+    "computer technician",
+    "data center technician",
+    "datacenter technician",
+    "technical support engineer",
+    "support technician",
+    "network support",
+    "systems support",
+    "IT service desk",
+    "IT specialist",
+    "desktop technician",
+    "IT analyst",
+    "IT field technician",
+    "PC technician",
+    "field support",
+    "IT operations"
+  ],
+  "exclude_title_terms": [
+    "senior",
+    "lead",
+    "manager",
+    "director",
+    "principal",
+    "sr",
+    "staff",
+    "supervisor",
+    "intern",
+    "internship"
+  ],
+  "skill_terms": [
+    "Windows",
+    "troubleshooting",
+    "imaging",
+    "hardware",
+    "software",
+    "inventory",
+    "customer service",
+    "networking",
+    "Active Directory",
+    "Microsoft 365",
+    "Python",
+    "Linux",
+    "PowerShell",
+    "ticketing",
+    "support tickets",
+    "laptop deployment",
+    "hardware troubleshooting",
+    "Microsoft Excel",
+    "TCP/IP",
+    "DNS",
+    "DHCP",
+    "CompTIA A+",
+    "VoIP",
+    "SIP",
+    "routers",
+    "switches",
+    "device deployment",
+    "hardware diagnostics",
+    "BIOS",
+    "peripherals"
+  ],
+  "boards": [
+    {
+      "provider": "greenhouse",
+      "company": "Bandwidth",
+      "token": "bandwidth"
+    },
+    {
+      "provider": "greenhouse",
+      "company": "Pendo",
+      "token": "pendo"
+    },
+    {
+      "provider": "greenhouse",
+      "company": "Epic Games",
+      "token": "epicgames"
+    },
+    {
+      "provider": "greenhouse",
+      "company": "Red Ventures",
+      "token": "redventures"
+    },
+    {
+      "provider": "greenhouse",
+      "company": "RVO Health",
+      "token": "rvohealth"
+    },
+    {
+      "provider": "smartrecruiters",
+      "company": "Bosch Group",
+      "token": "BoschGroup"
+    },
+    {
+      "provider": "smartrecruiters",
+      "company": "Eurofins",
+      "token": "Eurofins"
+    },
+    {
+      "provider": "smartrecruiters",
+      "company": "Continental",
+      "token": "Continental"
+    },
+    {
+      "provider": "smartrecruiters",
+      "company": "CapTech",
+      "token": "CapTechConsulting"
+    },
+    {
+      "provider": "amazon",
+      "company": "Amazon",
+      "token": "amazon"
+    }
+  ]
+}
